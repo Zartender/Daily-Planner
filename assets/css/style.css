@@ -16,10 +16,12 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: rgb(124, 119, 119);
     border-radius: 0;
     border-bottom: 10px solid black;
-    /* background-image: ; */
+    /* background-image: url(../images/SourceFile.png);
+    background-size: cover; */
+   
   }
   
   .description {
