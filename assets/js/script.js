@@ -35,3 +35,12 @@ $(".row").each(function (index) {
 
 // console.log(moment().hours());
 
+
+
+// if(weekNum % 2) {
+//     takeOut = true;
+//   } else {
+//     takeOut = false;
+//   }
+  
+//   $("#4a").text(takeOut + ", because it's currently week " + weekNum);
