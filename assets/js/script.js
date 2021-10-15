@@ -1,7 +1,7 @@
 // Displays time in appropriate format.
 console.log("Loading JS ");
 var today = moment();
-$("#today").text(today.format('MMMM Do YYYY, h:mm a'));
+$("#today").text(today.format('MMMM Do YYYY'));
 console.log(today.format);
 
 // Saves the element with .description class to local storage.
