@@ -1,10 +1,10 @@
-
+// Displays time in appropriate format.
 console.log("Loading JS ");
 var today = moment();
-$("#today").text(today.format('MMMM Do YYYY, h:mm:ss a'));
+$("#today").text(today.format('MMMM Do YYYY, h:mm a'));
 console.log(today.format);
 
-
+// Saves the element with .description class to local storage.
 $('.saveBtn').on('click', function () {
     console.log('.saveBtn', $(this));
     var description = $(this).siblings('.description').val();
@@ -32,3 +32,6 @@ $(".row").each(function (index) {
     $(this).find('.description').val(savedvalue);
 
 });
+
+// console.log(moment().hours());
+
