@@ -1,8 +1,9 @@
 
 console.log("Loading JS ");
 var today = moment();
-$("#today").text(today.format("MMM Do, YYYY"));
+$("#today").text(today.format('MMMM Do YYYY, h:mm:ss a'));
 console.log(today.format);
+
 
 $('.saveBtn').on('click', function () {
     console.log('.saveBtn', $(this));

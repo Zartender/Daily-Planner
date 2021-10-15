@@ -18,7 +18,7 @@ body {
     background-color: transparent;
     color: rgb(124, 119, 119);
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 3px solid black;
     /* background-image: url(../images/SourceFile.png);
     background-size: cover; */
    
@@ -37,12 +37,14 @@ body {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
+    
   }
   
   .hour {
     background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    color: #505050;
+    border-top: 1px dashed #8d8787;
+    border-radius: .25rem;
   }
   
   .past {
@@ -61,10 +63,10 @@ body {
   }
   
   .saveBtn {
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    /* background-color: #06aed5; */
     color: white;
   }
   
